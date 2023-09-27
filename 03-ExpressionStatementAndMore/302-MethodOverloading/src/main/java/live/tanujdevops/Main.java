@@ -2,7 +2,8 @@ package live.tanujdevops;
 
 public class Main {
 	public static void main(String[] args) {
-		calculateScore("Tanuj", 500);
+		int newScore = calculateScore("Tanuj", 500);
+		System.out.println("New score is " + newScore);
 	}
 
 	public static int calculateScore(String playerName, int score) {
