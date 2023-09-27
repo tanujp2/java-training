@@ -6,7 +6,7 @@ public class Main {
 		System.out.println("New score is " + newScore);
 
 		calculateScore(75);
-		
+
 		calculateScore();
 	}
 
@@ -18,5 +18,10 @@ public class Main {
 	public static int calculateScore(int score) {
 		System.out.println("Unnamed Player scored " + score + " points");
 		return score * 1000;
+	}
+
+	public static int calculateScore() {
+		System.out.println("No player name, no player score");
+		return 0;
 	}
 }
