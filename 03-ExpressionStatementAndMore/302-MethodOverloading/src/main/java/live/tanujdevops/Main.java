@@ -24,8 +24,4 @@ public class Main {
 		System.out.println("No player name, no player score");
 		return 0;
 	}
-	
-	public static void calculateScore() {
-		System.out.println("No player name, no player score");
-	}
 }
