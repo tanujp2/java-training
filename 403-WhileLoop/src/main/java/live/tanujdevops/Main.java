@@ -8,13 +8,13 @@ public class Main {
 
 		int j = 1;
 		boolean isReady = false;
-		while (isReady) {
+		do {
 			if (j > 5) {
 				break;
 			}
 
 			System.out.println(j);
 			j++;
-		}
+		} while (isReady);
 	}
 }
