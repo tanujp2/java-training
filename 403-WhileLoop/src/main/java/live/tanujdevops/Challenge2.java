@@ -5,6 +5,7 @@ public class Challenge2 {
 		System.out.println(sumDigits(125));
 		System.out.println(sumDigits(100));
 		System.out.println(-1);
+		System.out.println(sumDigits(1234));
 	}
 
 	public static int sumDigits(int number) {
