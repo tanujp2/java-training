@@ -15,6 +15,7 @@ public class Main {
 
 			System.out.println(j);
 			j++;
+			isReady = j > 0;
 		} while (isReady);
 	}
 }
