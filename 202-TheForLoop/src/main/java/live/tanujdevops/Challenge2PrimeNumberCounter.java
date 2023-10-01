@@ -4,7 +4,7 @@ public class Challenge2PrimeNumberCounter {
 	public static void main(String[] args) {
 		int primeNumberCount = 0;
 
-		for (int number = 0; number <= 1000; number++) {
+		for (int number = 20; number <= 40; number++) {
 			if (isPrime(number)) {
 				System.out.println(number);
 				primeNumberCount++;
