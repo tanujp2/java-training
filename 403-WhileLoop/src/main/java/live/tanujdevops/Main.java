@@ -7,7 +7,8 @@ public class Main {
 		}
 
 		int j = 1;
-		while (true) {
+		boolean isReady = false;
+		while (isReady) {
 			if (j > 5) {
 				break;
 			}
