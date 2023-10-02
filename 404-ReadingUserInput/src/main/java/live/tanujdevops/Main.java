@@ -51,8 +51,10 @@ public class Main {
 		int age = 0;
 		do {
 			System.out.println("Enter a year of bith >= " + (currentYear - 125) + " and <= " + currentYear);
-			String dateOfBirth = scanner.nextLine();
-			age = currentYear - Integer.parseInt(dateOfBirth);
+
+			age = checkData(currentYear, scanner.nextLine());
+
+			validDOB = age < 0 ? false : true;
 		} while (!validDOB);
 
 		return "So you are " + age + " years old";
