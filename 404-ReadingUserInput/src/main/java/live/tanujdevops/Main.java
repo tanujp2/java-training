@@ -8,5 +8,10 @@ public class Main {
 		int dateOfBirth = Integer.parseInt(usersDateOfBirth);
 
 		System.out.println("Age = " + (currentYear - dateOfBirth));
+
+		String usersAgeWithPartialYear = "22.5";
+		double ageWithPartialYear = Double.parseDouble(usersAgeWithPartialYear);
+
+		System.out.println("user say he's " + ageWithPartialYear);
 	}
 }
