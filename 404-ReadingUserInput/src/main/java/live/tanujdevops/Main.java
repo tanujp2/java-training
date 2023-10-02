@@ -14,8 +14,11 @@ public class Main {
 //
 //		System.out.println("user say he's " + ageWithPartialYear);
 
-		System.out.println(getInputFromConsole(currentYear));
-		System.out.println(getInputFromScanner(currentYear));
+		try {
+			System.out.println(getInputFromConsole(currentYear));
+		} catch (NullPointerException e) {
+			System.out.println(getInputFromScanner(currentYear));
+		}
 
 	}
 
