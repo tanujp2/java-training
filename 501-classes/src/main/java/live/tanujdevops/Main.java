@@ -2,8 +2,9 @@ package live.tanujdevops;
 
 public class Main {
 	public static void main(String[] args) {
-		Car car = new Car();
-		
+//		Car car = new Car();
+		Car car = null;
+
 		car.setMake("Tata");
 		car.setModel("Nexon XMS");
 		car.setColor("White");
