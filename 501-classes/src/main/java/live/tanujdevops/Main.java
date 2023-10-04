@@ -4,7 +4,7 @@ public class Main {
 	public static void main(String[] args) {
 		Car car = new Car();
 
-		car.setMake("Tata");
+		car.setMake("maserati");
 		car.setModel("Nexon XMS");
 		car.setColor("White");
 		car.setConvertible(false);
