@@ -55,7 +55,6 @@ public class BankAccount {
 
 		balance += amount;
 		System.out.println("Deposited " + amount);
-		System.out.println("Balance = " + balance);
 	}
 
 	public void withdraw(double amount) {
@@ -66,6 +65,5 @@ public class BankAccount {
 
 		balance -= amount;
 		System.out.println("Withdrew " + amount);
-		System.out.println("Balance = " + balance);
 	}
 }
