@@ -21,6 +21,9 @@ public class Main {
 		System.out.println(pojoStudent);
 		System.out.println(recordStudent);
 
+		pojoStudent.setClassList(pojoStudent.getClassList() + ", Java OCP Exam 829");
+//		recordStudent.setClassList(recordStudent.classList() + ", Java OCP Exam 829");
+		
 		System.out.println(pojoStudent.getName() + " is taking " + pojoStudent.getClassList());
 		System.out.println(recordStudent.name() + " is taking " + recordStudent.classList());
 	}
