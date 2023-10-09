@@ -7,6 +7,10 @@ public class Account {
 	private String customerEmail;
 	private String customerPhone;
 
+	public Account() {
+		System.out.println("Empty constructor called");
+	}
+
 	public void depositFunds(double depositAmount) {
 
 		balance += depositAmount;
