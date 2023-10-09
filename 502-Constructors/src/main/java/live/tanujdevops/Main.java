@@ -3,9 +3,9 @@ package live.tanujdevops;
 public class Main {
 	public static void main(String[] args) {
 
-//		Account bobsAccount = new Account();
+		Account bobsAccount = new Account();
 
-		Account bobsAccount = new Account("12345", 500.0, "Bob Brown", "myemail@bob.com", "(087) 123-4567");
+//		Account bobsAccount = new Account("12345", 500.0, "Bob Brown", "myemail@bob.com", "(087) 123-4567");
 
 		System.out.println(bobsAccount.getNumber());
 		System.out.println(bobsAccount.getBalance());
