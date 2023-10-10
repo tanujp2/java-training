@@ -19,7 +19,7 @@ public class Dog extends Animal {
 
 	@Override
 	public String toString() {
-		return "Dog [earShape=" + earShape + ", tailShape=" + tailShape + ", toString()=" + super.toString() + "]";
+		return "Dog [earShape=" + earShape + ", tailShape=" + tailShape + ", " + super.toString() + "]";
 	}
 
 }
