@@ -23,6 +23,9 @@ public class Dog extends Animal {
 	}
 
 	public void makeNoise() {
+		if (type == "Wolf") {
+			System.out.print("Ow Wooooo! ");
+		}
 		bark();
 		System.out.println();
 	}
