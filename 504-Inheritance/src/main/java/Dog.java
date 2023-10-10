@@ -23,6 +23,7 @@ public class Dog extends Animal {
 	}
 
 	public void makeNoise() {
+		bark();
 		System.out.println();
 	}
 
@@ -41,18 +42,18 @@ public class Dog extends Animal {
 	}
 
 	private void bark() {
-		System.out.println("Woof! ");
+		System.out.print("Woof! ");
 	}
 
 	private void run() {
-		System.out.println("Dog running ");
+		System.out.print("Dog running ");
 	}
 
 	private void walk() {
-		System.out.println("Dog walking ");
+		System.out.print("Dog walking ");
 	}
 
 	private void wagTail() {
-		System.out.println("Tail wagging ");
+		System.out.print("Tail wagging ");
 	}
 }
