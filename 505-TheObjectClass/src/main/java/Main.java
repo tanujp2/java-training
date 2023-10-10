@@ -17,7 +17,8 @@ class Student {
 
 	@Override
 	public String toString() {
-		return "Student [name=" + name + ", age=" + age + "]";
+//		return "Student [name=" + name + ", age=" + age + "]";
+		return name + " is " + age + " years old.";
 	}
 
 //	@Override
