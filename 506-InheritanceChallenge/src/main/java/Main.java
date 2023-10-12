@@ -6,9 +6,8 @@ public class Main {
 		System.out.println("Age = " + tim.getAge());
 		System.out.println("Pay = " + tim.collectPay());
 
-		Employee joe = new Employee("Joe", "11/11/1990", "03/03/2020");
+		Employee joe = new SalariedEmployee("Joe", "11/11/1990", "03/03/2020", 35000);
 		System.out.println(joe);
-		System.out.println("Age = " + joe.getAge());
-		System.out.println("Pay = " + joe.collectPay());
+		System.out.println("Joe's Paycheck = $" + joe.collectPay());
 	}
 }
