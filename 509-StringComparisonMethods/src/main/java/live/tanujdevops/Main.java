@@ -28,5 +28,10 @@ public class Main {
 //		this is more efficient because the java compiler recognizes the above concatenation as single string
 //		because of the use of string literal, which are compile time constants
 		System.out.println("newBirthDate = " + newBirthDate);
+
+//		using concat() method-chaining
+		newBirthDate = "25".concat("/").concat("11").concat("/").concat("1982");
+//		this is still not that efficient, because it also create many string objects
+		System.out.println("newBirthDate = " + newBirthDate);
 	}
 }
