@@ -40,6 +40,9 @@ public class Main {
 
 		System.out.println(newBirthDate.replaceFirst("/", "-"));
 		System.out.println(newBirthDate.replaceAll("/", "---"));
-	
+
+		System.out.println("ABC\n".repeat(3));
+		System.out.println("ABC\n".repeat(3).indent(4));
+		System.out.println("    ABC\n".repeat(3).indent(-2));
 	}
 }
