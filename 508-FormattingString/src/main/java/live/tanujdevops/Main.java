@@ -28,5 +28,7 @@ public class Main {
 
 		String formattedString = String.format("%s is %02d", name, age);
 		System.out.println(formattedString);
+
+		System.out.println("%s is %d years old".formatted(name, age)); //java15, equivalent to String.format(this, args)
 	}
 }
