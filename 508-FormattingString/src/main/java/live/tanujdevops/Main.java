@@ -5,5 +5,7 @@ public class Main {
 		String name = "John";
 		int age = 20;
 		System.out.println(name + " is " + age);
+
+		System.out.printf("%s is %d", name, age);
 	}
 }
