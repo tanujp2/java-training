@@ -3,7 +3,7 @@ package live.tanujdevops;
 public class Main {
 	public static void main(String[] args) {
 		String name = "John";
-		int age = 20;
+		int age = 0;
 		System.out.println(name + " is " + age);
 
 		System.out.printf("%s is %d%n", name, age);
@@ -22,8 +22,11 @@ public class Main {
 		double price = 6.0;
 		System.out.printf("price = %f%n", price); // prints to 6 decimal places
 		System.out.printf("price = %.2f%n", price); // prints to 2 decimal places
-		
+
 		double newPrice = 8.678;
 		System.out.printf("new price = %.2f%n", newPrice); // prints to 2 decimal places with rounding
+
+		String formattedString = String.format("%s is %02d", name, age);
+		System.out.println(formattedString);
 	}
 }
