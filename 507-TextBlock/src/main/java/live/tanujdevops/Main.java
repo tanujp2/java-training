@@ -11,8 +11,5 @@ public class Main {
 						\u2022 Sub point
 				""";
 		System.out.println(textBlock);
-
-		int age = 35;
-		System.out.printf("Your age is %d", age);
 	}
 }
