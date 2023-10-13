@@ -22,5 +22,11 @@ public class Main {
 //		it is similar to using + operator on string literals but does the process more
 //		inefficiently
 		System.out.println("newBirthDate = " + newBirthDate);
+
+//		using + operator
+		newBirthDate = "25" + "/" + "11" + "/" + "1982";
+//		this is more efficient because the java compiler recognizes the above concatenation as single string
+//		because of the use of string literal, which are compile time constants
+		System.out.println("newBirthDate = " + newBirthDate);
 	}
 }
