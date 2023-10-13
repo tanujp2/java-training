@@ -33,5 +33,13 @@ public class Main {
 		newBirthDate = "25".concat("/").concat("11").concat("/").concat("1982");
 //		this is still not that efficient, because it also create many string objects
 		System.out.println("newBirthDate = " + newBirthDate);
+
+//		replacing characters
+		System.out.println(newBirthDate.replace("/", "-")); // replaces all occurrences of / with -
+		System.out.println(newBirthDate.replace("2", "00"));
+
+		System.out.println(newBirthDate.replaceFirst("/", "-"));
+		System.out.println(newBirthDate.replaceAll("/", "---"));
+	
 	}
 }
