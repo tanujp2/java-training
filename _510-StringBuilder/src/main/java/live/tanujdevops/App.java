@@ -20,6 +20,12 @@ public class App {
 
         printInformation(emptyStart);
         printInformation(emptyStart32);
+
+        StringBuilder builderPlus = new StringBuilder("Hello" + " World");
+        builderPlus.append(" and Goodbye");
+
+        builderPlus.deleteCharAt(16).insert(16, "g");
+        printInformation(builderPlus);
     }
 
     public static void printInformation(String string) {
