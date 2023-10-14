@@ -14,7 +14,9 @@ public class App {
         printInformation(helloWorldBuilder);
 
         StringBuilder emptyStart = new StringBuilder(); //default capacity is 16, next capacity is determined by the JVM
+        emptyStart.append("a".repeat(17));
         StringBuilder emptyStart32 = new StringBuilder(32);
+        emptyStart32.append("a".repeat(17));
 
         printInformation(emptyStart);
         printInformation(emptyStart32);
