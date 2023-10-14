@@ -29,6 +29,9 @@ public class App {
 
         builderPlus.replace(16, 17, "G");
         printInformation(builderPlus);
+
+        builderPlus.setLength(7);
+        printInformation(builderPlus);
     }
 
     public static void printInformation(String string) {
