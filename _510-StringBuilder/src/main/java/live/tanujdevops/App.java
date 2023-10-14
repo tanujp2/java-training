@@ -26,6 +26,9 @@ public class App {
 
         builderPlus.deleteCharAt(16).insert(16, "g");
         printInformation(builderPlus);
+
+        builderPlus.replace(16, 17, "G");
+        printInformation(builderPlus);
     }
 
     public static void printInformation(String string) {
