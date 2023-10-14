@@ -3,10 +3,12 @@ package live.tanujdevops;
 public class App {
     public static void main(String[] args) {
         String helloWorld = "Hello" + " World";
+        helloWorld.concat(" and Goodbye");
 
 //       StringBuilder helloWorldBuilder = "Hello" + " World";
 
         StringBuilder helloWorldBuilder = new StringBuilder("Hello" + " World");
+        helloWorldBuilder.append(" and Goodbye");
 
         printInformation(helloWorld);
         printInformation(helloWorldBuilder);
